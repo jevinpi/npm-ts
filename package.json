@@ -6,7 +6,7 @@
   "private": false,
   "scripts": {
     "rollup-dev": "node lib/dev/dev-config.js",
-    "rollup-prod": "node lib/prod/prod-config.js && rollup -c lib/prod/rollup.config.js",
+    "build": "node lib/prod/prod-config.js && rollup -c lib/prod/rollup.config.js",
     "dev-publish": "cd lib && npm publish && cd ..",
     "prod-publish": "cd lib && npm publish && cd .."
   },
